@@ -1,0 +1,26 @@
+{
+    "name": "worker",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "@repo/db": "workspace:*",
+        "bs58": "^6.0.0",
+        "dotenv": "^17.2.2",
+        "kafkajs": "^2.2.4",
+        "nodemailer": "^7.0.6"
+    },
+    "devDependencies": {
+        "@prisma/client": "6.15.0",
+        "@repo/eslint-config": "workspace:*",
+        "@repo/typescript-config": "workspace:*",
+        "@types/bs58": "^5.0.0",
+        "@types/nodemailer": "^7.0.1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
